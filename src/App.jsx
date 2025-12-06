@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Link, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Projects from './pages/projects'
 import Agence from './pages/agence'
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
+
+
+
 const App = () => {
+  
   return (
     <div className='text-white'>
       <Routes>
