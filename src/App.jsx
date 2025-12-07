@@ -5,6 +5,8 @@ import Projects from './pages/projects'
 import Agence from './pages/agence'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
+import Navigation from './components/Navigation/Navigation'
+import FullScreenNav from './components/Navigation/FullScreenNav'
 
 
 
@@ -12,6 +14,8 @@ const App = () => {
   
   return (
     <div className='text-white'>
+      <Navigation/>
+      <FullScreenNav/>
       <Routes>
         <Route path="/" element={<Home></Home>}/>
         <Route path='/projects' element={<Projects></Projects>}/>

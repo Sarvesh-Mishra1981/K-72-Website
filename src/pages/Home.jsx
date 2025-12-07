@@ -5,7 +5,7 @@ import BottomText from '../components/home/BottomText'
 
 const Home = () => {
   return (
-    <div className="min-h-screen relative">
+    <div className="min-h-screen relative overflow-hidden">
       <div className="fixed inset-0 -z-10">
         <Video className="w-full h-full" />
       </div>

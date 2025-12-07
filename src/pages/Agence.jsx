@@ -45,7 +45,7 @@ const imageRef=useRef(null);
         >
           <img
             className='h-full w-full object-cover' ref={imageRef}
-            src='https://k72.ca/images/teamMembers/Carl_480x640.jpg?w=480&h=640&fit=crop&s=f0a84706bc91a6f505e8ad35f520f0b7'
+            src={imagearray[0]}
           />
         </div>
         <div>

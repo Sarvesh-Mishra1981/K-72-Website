@@ -3,3 +3,18 @@
 body{
   background-color: black;
 }
+.movex {
+  animation-name: moveAnimation;
+  animation-duration: 5s;
+  animation-timing-function: linear; 
+  animation-iteration-count: infinite; 
+}
+@keyframes moveAnimation {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+  
+}
